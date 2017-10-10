@@ -1,0 +1,26 @@
+body {
+  background-image: url(../img/cork-board.jpg);
+}
+
+#polaroid {
+  position: relative;
+  /*background-image: url(../img/picture.jpeg);*/
+}
+
+#picture {
+  position: absolute;
+  top: 11%;
+  left: 14%;
+  z-index: -1;
+}
+
+#pic {
+  width: 650px;
+}
+
+#pin {
+  position: absolute;
+  top: 6%;
+  left: 40%;
+  width: 100px;
+}
